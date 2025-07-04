@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Business Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Local Business Dashboard</h1>
+    <form id="business-form">
+      <input type="text" id="name" placeholder="Business Name" required />
+      <input type="text" id="location" placeholder="Location" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result" class="card hidden">
+      <p id="rating"></p>
+      <p id="reviews"></p>
+      <p id="headline"></p>
+      <button id="regenerate-btn">Regenerate SEO Headline</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

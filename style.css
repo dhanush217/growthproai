@@ -1,0 +1,33 @@
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f9fafb;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #eef;
+  border-radius: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
